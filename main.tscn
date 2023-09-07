@@ -1,0 +1,241 @@
+[gd_scene load_steps=39 format=3 uid="uid://bk4m4nxt8njnj"]
+
+[ext_resource type="Texture2D" uid="uid://gd2toxaut6yl" path="res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png" id="1_82xgf"]
+[ext_resource type="Texture2D" uid="uid://c7wktcclsbvln" path="res://Assets/Sprout Lands - Sprites - Basic pack/Objects/Free_Chicken_House.png" id="2_72vot"]
+[ext_resource type="Texture2D" uid="uid://bmthvho534aif" path="res://Assets/Sprout Lands - Sprites - Basic pack/Tilesets/Water.png" id="3_ikp8d"]
+[ext_resource type="Script" path="res://Sprite2D.gd" id="4_0jf3q"]
+[ext_resource type="Texture2D" uid="uid://ck7jxitfw7737" path="res://Assets/Wolf/Run right/__Wolf_Run_000.png" id="4_k7cqv"]
+[ext_resource type="Texture2D" uid="uid://bfl7mfir5lud5" path="res://Assets/Wolf/Run right/__Wolf_Run_001.png" id="5_iwmkf"]
+[ext_resource type="Texture2D" uid="uid://baocs5ukpgjea" path="res://Assets/Wolf/Run right/__Wolf_Run_002.png" id="6_xabl4"]
+[ext_resource type="Texture2D" uid="uid://c641wlveo8i" path="res://Assets/Wolf/Run right/__Wolf_Run_003.png" id="7_4kvc1"]
+[ext_resource type="Texture2D" uid="uid://ci2mfpcww37r5" path="res://Assets/Wolf/Run right/__Wolf_Run_004.png" id="8_73cny"]
+[ext_resource type="Texture2D" uid="uid://bla2k2svbqvij" path="res://Assets/Wolf/Run right/__Wolf_Run_005.png" id="9_6g5cr"]
+[ext_resource type="Texture2D" uid="uid://dt3ahcvdkkdlu" path="res://Assets/Wolf/Run right/__Wolf_Run_006.png" id="10_r8x5f"]
+[ext_resource type="Texture2D" uid="uid://dfk2nbvs5iw3a" path="res://Assets/Wolf/Run right/__Wolf_Run_007.png" id="11_17wh1"]
+[ext_resource type="Texture2D" uid="uid://ciypktih30m6o" path="res://Assets/Wolf/Run left/__Wolf_Run_000.png" id="12_mx36w"]
+[ext_resource type="Texture2D" uid="uid://d13v8g4uptjhv" path="res://Assets/Wolf/Run left/__Wolf_Run_001.png" id="13_7oea4"]
+[ext_resource type="Texture2D" uid="uid://blsh6e5go11i" path="res://Assets/Wolf/Run left/__Wolf_Run_002.png" id="14_2kf42"]
+[ext_resource type="Texture2D" uid="uid://cbve36ip6m386" path="res://Assets/Wolf/Run left/__Wolf_Run_003.png" id="15_knbt8"]
+[ext_resource type="Texture2D" uid="uid://cniwuu0hiwhnd" path="res://Assets/Wolf/Run left/__Wolf_Run_004.png" id="16_b18iq"]
+[ext_resource type="Texture2D" uid="uid://1n1qnvfl4jlt" path="res://Assets/Wolf/Run left/__Wolf_Run_005.png" id="17_vrr17"]
+[ext_resource type="Texture2D" uid="uid://w8tom1opgjao" path="res://Assets/Wolf/Run left/__Wolf_Run_006.png" id="18_rum6l"]
+[ext_resource type="Texture2D" uid="uid://cnswij106lsgl" path="res://Assets/Wolf/Run left/__Wolf_Run_007.png" id="19_dtxc4"]
+[ext_resource type="Texture2D" uid="uid://celq0pp8v4t60" path="res://Assets/Wolf/Attack/__Wolf_Attack_000.png" id="20_i5uqv"]
+[ext_resource type="Texture2D" uid="uid://bqhma7876y3ms" path="res://Assets/Wolf/Attack/__Wolf_Attack_001.png" id="21_8kvoq"]
+[ext_resource type="Texture2D" uid="uid://dhnj4smrp2rss" path="res://Assets/Wolf/Attack/__Wolf_Attack_002.png" id="22_8lgme"]
+[ext_resource type="Texture2D" uid="uid://k50mqsastt8l" path="res://Assets/Wolf/Attack/__Wolf_Attack_003.png" id="23_dha53"]
+[ext_resource type="Texture2D" uid="uid://c4omovyiuqpa4" path="res://Assets/Wolf/Attack/__Wolf_Attack_004.png" id="24_y8dei"]
+[ext_resource type="Texture2D" uid="uid://dwcnp7r0j83t1" path="res://Assets/Wolf/Attack/__Wolf_Attack_005.png" id="25_yhb4m"]
+[ext_resource type="Texture2D" uid="uid://b7yfnitl78w8e" path="res://Assets/Wolf/Attack/__Wolf_Attack_006.png" id="26_nqgkf"]
+[ext_resource type="Texture2D" uid="uid://djt5c1k0voi57" path="res://Assets/Wolf/Attack/__Wolf_Attack_007.png" id="27_gwvl4"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jv7ei"]
+texture = ExtResource("1_82xgf")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tsktx"]
+texture = ExtResource("2_72vot")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cbogt"]
+texture = ExtResource("3_ikp8d")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_h2afj"]
+sources/0 = SubResource("TileSetAtlasSource_jv7ei")
+sources/1 = SubResource("TileSetAtlasSource_tsktx")
+sources/2 = SubResource("TileSetAtlasSource_cbogt")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cr0nc"]
+size = Vector2(326, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m4srd"]
+size = Vector2(145.5, 20)
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_x5540"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_8s3c7"]
+height = 82.0
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bjmxk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_k7cqv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_iwmkf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_xabl4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_4kvc1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_73cny")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_6g5cr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_r8x5f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_17wh1")
+}],
+"loop": true,
+"name": &"kanan",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_mx36w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_7oea4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_2kf42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_knbt8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_b18iq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_vrr17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_rum6l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_dtxc4")
+}],
+"loop": true,
+"name": &"kiri",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("20_i5uqv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_8kvoq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_8lgme")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_dha53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_y8dei")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_yhb4m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_nqgkf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_gwvl4")
+}],
+"loop": true,
+"name": &"lawan",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"lompat",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bl4wp"]
+size = Vector2(43.1526, 31.7664)
+
+[node name="Node2D" type="StaticBody2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_h2afj")
+format = 2
+layer_0/tile_data = PackedInt32Array(1245206, 65536, 0, 1310742, 65536, 1, 1376278, 65536, 2, 1245207, 131072, 0, 1310743, 131072, 1, 1376279, 131072, 2, 1245209, 65536, 0, 1310745, 65536, 1, 1376281, 65536, 2, 1245210, 131072, 0, 1310746, 131072, 1, 1376282, 131072, 2, 1245211, 196608, 0, 1310747, 196608, 1, 1376283, 196608, 2, 1245208, 196608, 0, 1310744, 196608, 1, 1376280, 196608, 2, 1245212, 65536, 0, 1310748, 65536, 1, 1376284, 65536, 2, 1245213, 131072, 0, 1310749, 131072, 1, 1376285, 131072, 2, 1245214, 196608, 0, 1310750, 196608, 1, 1376286, 196608, 2, 1245215, 65536, 0, 1310751, 65536, 1, 1376287, 65536, 2, 1245216, 2, 0, 1310752, 2, 0, 1376288, 2, 0, 1245217, 65538, 0, 1310753, 65538, 0, 1376289, 65538, 0, 1245218, 131074, 0, 1310754, 131074, 0, 1376290, 131074, 0, 1245219, 196610, 0, 1310755, 196610, 0, 1376291, 196610, 0, 1245220, 196608, 0, 1310756, 196608, 1, 1376292, 196608, 2, 1245221, 65536, 0, 1310757, 65536, 1, 1376293, 65536, 2, 1245222, 131072, 0, 1310758, 131072, 1, 1376294, 131072, 2, 1245223, 196608, 0, 1310759, 196608, 1, 1376295, 196608, 2, 1245224, 65536, 0, 1310760, 65536, 1, 1376296, 65536, 2, 1245225, 131072, 0, 1310761, 131072, 1, 1376297, 131072, 2, 1245226, 196608, 0, 1310762, 196608, 1, 1376298, 196608, 2, 1245227, 65536, 0, 1310763, 65536, 1, 1376299, 65536, 2, 1245228, 131072, 0, 1310764, 131072, 1, 1376300, 131072, 2, 1245229, 196608, 0, 1310765, 196608, 1, 1376301, 196608, 2, 1048601, 1, 2, 1114137, 65536, 1, 1179673, 65536, 2, 1048602, 65537, 2, 1114138, 131072, 1, 1179674, 131072, 2, 1048603, 131073, 2, 1114139, 196608, 1, 1179675, 196608, 2, 1048598, 65536, 0, 1114134, 65536, 1, 1179670, 65536, 2, 1048599, 131072, 0, 1114135, 131072, 1, 1179671, 131072, 2, 1048600, 196608, 0, 1114136, 196608, 1, 1179672, 196608, 2, 1048595, 1, 2, 1114131, 65536, 1, 1179667, 65536, 2, 1048596, 65537, 2, 1114132, 131072, 1, 1179668, 131072, 2, 1048597, 131073, 2, 1114133, 196608, 1, 1179669, 196608, 2, 1245203, 65536, 0, 1310739, 65536, 1, 1376275, 65536, 2, 1245204, 131072, 0, 1310740, 131072, 1, 1376276, 131072, 2, 1245205, 196608, 0, 1310741, 196608, 1, 1376277, 196608, 2, 1245200, 65536, 0, 1310736, 65536, 1, 1376272, 65536, 2, 1245201, 131072, 0, 1310737, 131072, 1, 1376273, 131072, 2, 1245202, 196608, 0, 1310738, 196608, 1, 1376274, 196608, 2, 1245197, 65536, 0, 1310733, 65536, 1, 1376269, 65536, 2, 1245198, 131072, 0, 1310734, 131072, 1, 1376270, 131072, 2, 1245199, 196608, 0, 1310735, 196608, 1, 1376271, 196608, 2, 1245194, 65536, 0, 1310730, 65536, 1, 1376266, 65536, 2, 1245195, 131072, 0, 1310731, 131072, 1, 1376267, 131072, 2, 1245196, 196608, 0, 1310732, 196608, 1, 1376268, 196608, 2, 851990, 1, 2, 917526, 65536, 1, 983062, 65536, 2, 851991, 65537, 2, 917527, 131072, 1, 983063, 131072, 2, 851992, 131073, 2, 917528, 196608, 1, 983064, 196608, 2, 1048613, 1, 2, 1114149, 65536, 1, 1179685, 65536, 2, 1048614, 65537, 2, 1114150, 131072, 1, 1179686, 131072, 2, 1048615, 131073, 2, 1114151, 196608, 1, 1179687, 196608, 2, 917541, 1, 0, 983077, 1, 1, 917542, 65537, 0, 983078, 65537, 1, 917543, 131073, 0, 983079, 131073, 1, 917523, 1, 0, 983059, 1, 1, 917524, 65537, 0, 983060, 65537, 1, 917525, 131073, 0, 983061, 131073, 1, 720918, 1, 0, 786454, 1, 1, 720919, 65537, 0, 786455, 65537, 1, 720920, 131073, 0, 786456, 131073, 1, 917529, 1, 0, 983065, 1, 1, 917530, 65537, 0, 983066, 65537, 1, 917531, 131073, 0, 983067, 131073, 1, 1048589, 1, 0, 1114125, 1, 1, 1179661, 1, 2, 1048590, 65537, 0, 1114126, 65537, 1, 1179662, 65537, 2, 1048591, 131073, 0, 1114127, 131073, 1, 1179663, 131073, 2)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(327, 314)
+shape = SubResource("RectangleShape2D_cr0nc")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(661.75, 317)
+shape = SubResource("RectangleShape2D_m4srd")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="."]
+position = Vector2(327, 287)
+shape = SubResource("CapsuleShape2D_x5540")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="."]
+position = Vector2(376, 262)
+shape = SubResource("CapsuleShape2D_8s3c7")
+
+[node name="Sprite2D" type="CharacterBody2D" parent="."]
+position = Vector2(526, 93)
+scale = Vector2(1.71484, 1.60547)
+script = ExtResource("4_0jf3q")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Sprite2D"]
+position = Vector2(-184.856, 117.1)
+scale = Vector2(0.106985, 0.128797)
+sprite_frames = SubResource("SpriteFrames_bjmxk")
+animation = &"lawan"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D"]
+position = Vector2(-184.273, 134.852)
+scale = Vector2(0.999999, 1)
+shape = SubResource("RectangleShape2D_bl4wp")
